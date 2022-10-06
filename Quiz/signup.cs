@@ -39,6 +39,10 @@ namespace Quiz
 
         public void linkSign()
         {
+
+            Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+
+            screenshot.SaveAsFile(@".\\Screenshot.png", ScreenshotImageFormat.Png);
             clickItems(LinkSignUp);
 
         }
