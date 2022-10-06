@@ -1,0 +1,39 @@
+﻿<?xml version ="1.0" encoding ="utf-8"?>
+<Automation>
+	<Execution>
+		<login>
+
+			<first>Niaz</first>
+			<last>Ahmad</last>
+			<email>testing@gmail.com</email>
+			<password>testing123</password>
+			<confirmPassword>testing123</confirmPassword>
+			<companyname>Countour</companyname>
+			<address>shad bagh</address>
+			<state>Punjab</state>
+			<city>Lahore</city>
+			<zipcode>54000</zipcode>
+			<mobile>03244254366</mobile>
+			<product>shirt</product>
+			<message>  message is valid </message>
+			
+		</login>
+		<invalid>
+
+			<first>niaz</first>
+			<last>ahmad</last>
+			<email>testing@gmail.com</email>
+			<password>testing123</password>
+			<confirmPassword>testing123</confirmPassword>
+			<companyname>Countour</companyname>
+			<address>shad bagh</address>
+			<state>Punjab</state>
+			<city>Lahore</city>
+			<zipcode>54000</zipcode>
+			<mobile>03244254366</mobile>
+			<product>shirt</product>
+
+			<message>  message is valid </message>
+		</invalid>
+	</Execution>
+</Automation>
